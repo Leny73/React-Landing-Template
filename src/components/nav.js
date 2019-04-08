@@ -5,12 +5,12 @@ class Nav extends Component {
     return (
       <nav>
           <ul>
-              <li className="logo">Design<span>Labs</span></li>
+              <li className="logo"><a href="home">Milieudefensie<span> Friends of the Earth Netherlands</span></a></li>
           </ul>
           <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Mission</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#mission">Mission</a></li>
+              <li><a href="#contact">Contact</a></li>
           </ul>
       </nav>
     );
