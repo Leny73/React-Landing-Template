@@ -24,10 +24,10 @@ class Header extends Component {
               <div>
                 <ReactGA.OutboundLink
                   eventLabel="CTA"
-                  to="https://en.milieudefensie.nl/"
+                  to="https://en.wikipedia.org/wiki/Friends_of_the_Earth"
                   target="_blank"
                   >
-                    <a className = "contact">Learn More</a>
+                    <div className = "contact">Learn More</div>
                 </ReactGA.OutboundLink>
               </div>
             </div>
