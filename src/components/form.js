@@ -1,4 +1,13 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-137821890-1', {
+  debug: true,
+  titleCase: false,
+  gaOptions: {
+    userId: 137921890
+  }
+});
 
 class Form extends Component {
   constructor(){
@@ -10,6 +19,7 @@ class Form extends Component {
           formError: false
       }
   }
+
 
   getName = (e) =>{
     let username = e.target.value; 
@@ -65,10 +75,13 @@ class Form extends Component {
             Email: ${this.state.email},
             Message: ${this.state.message}
         }`)
-    
+        
+        ReactGA.event({
+          category: 'User',
+          action: 'Send a form'
+        })
     
         console.log("form sent")
-    
     }
  
   }
