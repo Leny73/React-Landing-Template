@@ -6,12 +6,17 @@
     "gh-pages": "^2.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-ga": "^2.5.7",
+    "react-scripts": "1.1.4",
+    "react-tag-manager": "^3.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "https://Leny73.github.io/React-Landing-Template"
 }
