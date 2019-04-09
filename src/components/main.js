@@ -37,7 +37,7 @@ class Main extends Component {
                 <p>Imagine our children playing on safe streets. Imagine doing your grocery shopping by bike. And imagine an easy commute to work via clean public transportation or shared electric cars. This is the kind of sustainable city we are aiming for. And we want to do it together. Once we choose for more sustainable transportation, better air quality will follow. That’s good news for everyone who breathes.</p>
                 </div>
                 <div className="service-three">
-                <p className="service-icon"><p className="service-title">Just Transition</p></p>
+                <p className="service-icon"><p className="service-title">Transition</p></p>
                 <p>Climate change is the greatest single challenge that humanity currently faces. In order to bring climate change to a halt some major changes are going to be necessary. Our agriculture, how we move around, how we heat our homes – everything is going to necessarily change. We will only be able to accomplish this if everyone participates and is able to participate.</p>
                 </div>
               </div>

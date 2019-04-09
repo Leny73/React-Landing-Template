@@ -6,7 +6,6 @@ class Footer extends Component {
     return (
      
       <footer>
-          <h3>React Landing Template</h3>
           <p>Support <br/> lbranzalov95@gmail.com</p>
           <ul>
             <li><a href="https://www.facebook.com/foeint/"><i className="fab fa-facebook-f"></i></a></li>

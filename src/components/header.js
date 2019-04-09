@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from "./nav";
-import { Click } from 'react-tag-manager'
+import { Click } from 'react-tag-manager';
+
 
 class Header extends Component {
   render() {
@@ -13,13 +14,13 @@ class Header extends Component {
             <div>
               <p>At Friends of the Earth Netherlands we focus on sustainability. Simple changes in our everyday lives could help perserve the environment and multiple eco-systems.</p>
               <div>
-                <Click
-      	            event={'click'}
-      	              data={{
-      	                event: 'click',
-      	                }}>
-      	              <button>CLICK ME</button>
-      	        </Click>
+              <Click
+      	        event={'click'}
+      	        data={{
+      	        event: 'click',
+      	        }}>
+      	        <button className="contact">Learn More</button>
+      	      </Click>
               </div>
             </div>
         </div>

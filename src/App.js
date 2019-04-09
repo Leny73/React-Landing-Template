@@ -1,27 +1,13 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
-import { PageView } from 'react-tag-manager'
 import Header from "./components/header";
 import Main from "./components/main";
 import Footer from "./components/footer";
 import GTM from 'react-tag-manager';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      someData: null,
-    };
-
-    // Add your tracking ID created from https://analytics.google.com/analytics/web/#home/
-    ReactGA.initialize('UA-137921890-1');
-    // This just needs to be called once since we have no routes in this case.
-    ReactGA.pageview(window.location.pathname);
-  }
-  render() {
-    return (
-      <div className="container">
-        <GTM 
+export const AppContainer = () => (
+  <div>
+    <GTM 
       gtm={{
         id: 'GTM-NLVSPBC',
         auth: '',      // Optional
@@ -40,8 +26,25 @@ class App extends Component {
         }
       }}>
     	...
-        </GTM>
-        <PageView />
+    </GTM>
+  </div>
+)
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      someData: null,
+    };
+
+    // Add your tracking ID created from https://analytics.google.com/analytics/web/#home/
+    ReactGA.initialize('UA-137921890-1');
+    // This just needs to be called once since we have no routes in this case.
+    ReactGA.pageview(window.location.pathname);
+  }
+  render() {
+    return (
+      <div className="container">
         <Header />
         <Main />
         <Footer />
