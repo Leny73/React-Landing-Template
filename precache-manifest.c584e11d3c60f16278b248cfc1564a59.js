@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/React-Landing-Template/static/js/2.05ce53a0.chunk.js"
   },
   {
-    "revision": "54b1edc117ce2c0dc10210da2bf049fd",
-    "url": "/React-Landing-Template/static/media/chuttersnap-598266-unsplash.54b1edc1.jpg"
-  },
-  {
     "revision": "fac394317bd75109559d59ce65a4de0f",
     "url": "/React-Landing-Template/static/media/header.fac39431.png"
+  },
+  {
+    "revision": "54b1edc117ce2c0dc10210da2bf049fd",
+    "url": "/React-Landing-Template/static/media/chuttersnap-598266-unsplash.54b1edc1.jpg"
   },
   {
     "revision": "0faf8aa69140ac66dcf7",
