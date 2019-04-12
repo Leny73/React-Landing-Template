@@ -18,7 +18,7 @@ class Header extends Component {
       <header>
       <Nav/>
         <div className="head">
-            <h1>Do you want to be< br/>a friend of the Earth?</h1>
+            <h2>Do you want to be< br/>a friend of the Earth?</h2>
             <div>
               <p>At Friends of the Earth Netherlands we focus on sustainability. Simple changes in our everyday lives could help perserve the environment and multiple eco-systems.</p>
               <div>
