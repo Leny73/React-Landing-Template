@@ -27,7 +27,7 @@ class Header extends Component {
                   to="https://en.wikipedia.org/wiki/Friends_of_the_Earth"
                   target="_blank"
                   >
-                    <div className = "contact">Learn More</div>
+                    <div className = "contact">Donate now</div>
                 </ReactGA.OutboundLink>
               </div>
             </div>
